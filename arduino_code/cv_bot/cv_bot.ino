@@ -15,7 +15,7 @@ int16_t speedB = 0;
 
 void setup()
 {
-  Serial.begin(9600);
+  Serial.begin(115200);
   pinMode(IN1_PIN, OUTPUT);    
   pinMode(IN2_PIN, OUTPUT);    
   pinMode(IN3_PIN, OUTPUT);    

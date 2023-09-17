@@ -64,7 +64,7 @@ if __name__ == '__main__':
     parser.add_argument('-s', '--serial', type=str, default='/dev/ttyUSB0', help="Serial port")
     args = parser.parse_args()
 
-    serialPort = serial.Serial(args.serial, 9600)   # открываем uart
+    serialPort = serial.Serial(args.serial, 115200)   # открываем uart
 
     def sender():
         """ функция цикличной отправки пакетов по uart """
