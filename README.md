@@ -5,25 +5,19 @@
   <br>
 </h1>
 
-<p align="center">
-  <a href="https://github.com/TrashRobotics/CVbot/blob/main/README.md">Русский</a> •
-  <a href="https://github.com/TrashRobotics/CVbot/blob/main/README-en.md">English(Английский)</a> 
-</p>
+
 
 ## Основные детали тележки
-* orange pi zero 512мб;
+* Raspberry Pi 4 2GB;
 * веб-камера;
-* usb-разветвитель или преобразователь логических уровней;
-* usb-ttl преобразователь;
-* XL4005 dc/dc преобразователь;  
-* arduino pro mini;
-* MX1508 драйвер двигателей;
+* приобразователь usb uart;  
+* esp 32 devkit v1;
+* Драйвер двигателей L9110S;
 * 4x желтые ардуино TT-мотор-редукторы;
-* 2x 18650 аккумуляторы и батарейный отсек для них;
-* тумблер;
-* доска или кусок фанеры;
+* powerbank;
 
-## Настройка Orange pi
+
+## Настройка Raspberry Pi
 
 ### Подключаемся к точке доступа
 ```shell
@@ -74,5 +68,3 @@ python3 app.py -i (ip-адресс orange pi) -p (порт) -s (последов
 ```shell
 192.168.42.1:5000
 ```     
-
-Подробнее про все остальное смотрите в видео
