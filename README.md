@@ -51,7 +51,7 @@ sudo apt install python3-opencv
 ### Запуск приложения
 Скачиваем репозиторий проекта
 ```shell
-git clone https://github.com/TrashRobotics/CVbot
+git clone https://github.com/hakgr1d/CVbot.git
 ```
 и запускаем приложение
 ```shell
