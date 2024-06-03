@@ -10,7 +10,7 @@
 * Raspberry Pi 4 2GB;
 * веб-камера;
 * приобразователь usb uart;  
-* esp 32 devkit v1;
+* esp32 devkit v1;
 * Драйвер двигателей L9110S;
 * 4x желтые ардуино TT-мотор-редукторы;
 * powerbank;
@@ -32,8 +32,7 @@ ifconfig
 ### Установка зависимостей
 Обновляемся:
 ```shell
-sudo apt update
-sudo apt upgrade
+sudo apt update; sudo apt upgrade
 ```
 Загружаем питоновый менеджер пакетов и вспомогательные пакеты
 ```shell
